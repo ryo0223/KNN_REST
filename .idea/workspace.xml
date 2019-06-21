@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbce5a7a-f488-43a7-b911-2191e07c76a0" name="Default" comment="" />
+    <list default="true" id="fbce5a7a-f488-43a7-b911-2191e07c76a0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knnapp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knnapp/apps.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,11 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knn/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="1065">
               <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -130,6 +141,8 @@
         <option value="$PROJECT_DIR$/knn/urls.py" />
         <option value="$PROJECT_DIR$/knnapp/views.py" />
         <option value="$PROJECT_DIR$/knn/settings.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -139,7 +152,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="width" value="1922" />
     <option name="height" value="526" />
@@ -191,6 +204,12 @@
               <item name="knn" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 (assignment) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="knn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (assignment) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="b5f07198:RTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -259,16 +278,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="7" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.49786553" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -316,6 +336,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <MESSAGE value="requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -328,7 +353,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -408,7 +433,7 @@
         <state relative-caret-position="60">
           <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -488,7 +513,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -582,24 +607,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knnapp/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knnapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,10 +662,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/knnapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knnapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/knn/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
+        <state relative-caret-position="1065">
           <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
