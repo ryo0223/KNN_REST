@@ -25,7 +25,7 @@ SECRET_KEY = '+de5j!&9-h+3k$y21jr*v0c9-$07%l+9!b_@qd=m@d!-1per%0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["knnapi.herokuapp.com","127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
