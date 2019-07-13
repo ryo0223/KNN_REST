@@ -24,8 +24,8 @@ class FileView(APIView):
       print(csv_data.head())
       os.remove("./media/"+str(file_obj))
       knnapp.knn_algorithm.knn_algo()
-      #return Response(file_serializer.data, status=status.HTTP_201_CREATED)
+      return Response(file_serializer.data, status=status.HTTP_201_CREATED)
 
-      return HttpResponse("success", content_type="text/plain")
+      #return HttpResponse("success", content_type="text/plain")
     else:
       return Response(file_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
