@@ -56,7 +56,7 @@ def knn_algo(file,SSID):
 
         prediction = model.predict(lg251_1.iloc[:20, :].values)
         # actual=concateddata.iloc[:20,-1].values
-        actual = received_file.iloc[:20, -1].values
+        #actual = received_file.iloc[:20, -1].values
         S_prediction = pd.Series(prediction).value_counts(normalize=True)
         print(S_prediction)
         predicted_location = S_prediction.index[0]
