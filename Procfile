@@ -1,1 +1,1 @@
-web: gunicorn knn.wsgi
+web: gunicorn knn.wsgi  --log-file -
