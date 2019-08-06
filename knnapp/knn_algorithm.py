@@ -13,7 +13,7 @@ def knn_algo(file,SSID):
     model = KNeighborsClassifier(n_neighbors=1)
 
     concateddata = pd.read_csv("./staticfiles/merged.csv")
-    received_file = pd.read_csv("./media/"+file)
+    received_file = pd.read_csv("./media/"+file,error_bad_lines=False)
     #result, received_file = check_and_remove_location(received_file, "test")
     result=True #for development
     if result==True:

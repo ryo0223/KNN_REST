@@ -136,4 +136,4 @@ import django_heroku
 django_heroku.settings(locals())
 
 # This is new
-del DATABASES['default']['OPTIONS']['sslmode']
+#del DATABASES['default']['OPTIONS']['sslmode']
