@@ -7,8 +7,9 @@ def knn_algo(file,SSID):
 
     computing = [7, 8, 9, "Computing building"]
     pyshics = [11, "Physics building"]
+    stroke = [4, "Physics building"]
 
-    business = ["Business building"]
+    business = [5,"Business building"]
     all_building = [computing, pyshics, business]
     model = KNeighborsClassifier(n_neighbors=1)
 
